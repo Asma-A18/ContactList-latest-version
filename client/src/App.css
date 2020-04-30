@@ -1,0 +1,109 @@
+.contactinfos{
+  width: 280px;
+  height: 320px;
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  font-size: 20px;
+    line-height: 0.75;
+    color: #212529;
+    text-align: center;
+}
+
+body{
+  background-color: #eee;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.list {
+  display: grid;
+  grid-gap: 10em;
+  grid-template-columns: repeat(auto-fill, minmax(8em, 23fr));
+  margin-top: 60px;
+margin-left: 35px;
+width: 80%
+}
+
+.svggroup{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+#listsvg{
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+#homebtn{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 55px;
+  height: 30px;
+  width: 100px;
+  border: transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #007bff;
+}
+
+.addbutton{
+position: absolute;
+margin-left: 500px;
+margin-top: 200px;
+height: 60px;
+width: 200px;
+border: transparent;
+border-radius: 5px;
+font-size: 15px;
+background-color: #007bff;
+color: #ffffff;
+}
+
+svg {
+  height: 30px;
+  width: 30px;
+  color: #007bff;
+}
+
+.inputgroup{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: solid #ababab;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+h3{
+  color: #007b5e;
+}
+input{
+  height: 30px;
+}
+
+label {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  border: transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #007bff;
+  margin-left: 30px;
+
+}
+
+.btngroup {
+  display: flex;
+  margin-top: 10px;
+}
